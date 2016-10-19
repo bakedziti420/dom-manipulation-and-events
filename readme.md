@@ -35,7 +35,7 @@ Using JavaScript to manipulate the DOM will enable you to write dynamic web appl
 ##Select & Modify: Str8-up H4cked
 *This workshop will be guided, but self-driven.*
 
-The consultant will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
+The Instructor will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
 
 *Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
 
