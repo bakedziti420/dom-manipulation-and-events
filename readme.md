@@ -8,13 +8,15 @@ Market: SF, Denver
 
 #DOM Manipulation & Events
 
-## Why is this important?
+## Why is this important? 
+[time]: # (5 min)
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
 DOM manipulation is the bread and butter of dynamic web design - you will do it, in some way, for almost every interactive element you add to your website. We're going to start with some very small examples, but all of these techniques can be used at a higher level as well.
 
 ## What are the objectives?
+[time]: # (5 min)
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
@@ -33,6 +35,7 @@ DOM manipulation is the bread and butter of dynamic web design - you will do it,
 - Be resourceful Googlers
 
 ##Select & Modify: Str8-up H4cked
+[time]: # (25 min)
 *This workshop will be guided, but self-driven.*
 
 Good news - you've been recruited by General Assembly's Global Disruption Department to hack to hack Angel List. You and a partner are going to pair up to manipulate various aspects of their web page.
