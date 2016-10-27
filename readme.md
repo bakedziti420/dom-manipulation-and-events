@@ -51,23 +51,15 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 
 ---
 
-<details>
-    <summary>**Hint:**</summary>
-    <figure>
-       
-		<p>How can we identify all the startup elements? Do they share any HTML attributes?</p>
+**Hint:**
 
-		<p>Once we've identified an attribute they all share, how can we select them all?</p>
-		<p>Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.</p>
+* How can we identify all the startup elements? Do they share any HTML attributes?
 
-		<p>Now that we have a collection, how do we change the text off all of them at once?</p>
-		<p>Tip: iterate through the collection and reset the `textContent` of each.</p>
+* Once we've identified an attribute they all share, how can we select them all?
+	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.
 
-    </figure>
-</details>
-
-
-
+* Now that we have a collection, how do we change the text off all of them at once?
+	* Tip: iterate through the collection and reset the `textContent` of each.
 
 ##Create & Append: Angels Everywhere
 
