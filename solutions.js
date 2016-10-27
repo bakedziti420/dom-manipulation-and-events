@@ -1,6 +1,6 @@
 // Mission A - Select & Modify: Str8-up H4cked
 //grab all the companies
-var companies = document.querySelectorAll("h5");
+var companies = document.querySelectorAll("a");
 //for each company
 for(var i= 0; i < companies.length; i++) {
     //change the text content
@@ -8,14 +8,14 @@ for(var i= 0; i < companies.length; i++) {
 }
 
 //Mission B - Add the V
-var subscribeBox = document.querySelector(".alerts");
+var pageTitle = document.querySelector(".c-pageHeaderSmall-h1");
 var logo = document.createElement("span")
 logo.className = "fontello-angellist";
 logo.setAttribute("id", "myLogo")
-subscribeBox.appendChild(logo) 
+pageTitle.appendChild(logo) 
 
 //Mission C - green V
-logo.style.fontSize = "64px";
+logo.style.fontSize = "164px";
 logo.style.color = "green";
 
 //Mission D - set an event listener
