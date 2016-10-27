@@ -12,7 +12,7 @@ Market: SF, Denver
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Using JavaScript to manipulate the DOM will enable you to write dynamic web applications that can update themselves & be affected by user input in any way you dream up!
+DOM manipulation is the bread and butter of dynamic web design - you will do it, in some way, for almost every interactive element you add to your website. We're going to start with some very small examples, but all of these techniques can be used at a higher level as well.
 
 ## What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
@@ -35,7 +35,7 @@ Using JavaScript to manipulate the DOM will enable you to write dynamic web appl
 ##Select & Modify: Str8-up H4cked
 *This workshop will be guided, but self-driven.*
 
-The Instructor will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
+Good news - you've been recruited by General Assembly's Global Disruption Department to hack to hack Angel List. You and a partner are going to pair up to manipulate various aspects of their web page.
 
 *Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
 
@@ -51,15 +51,21 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 
 ---
 
-**Hint:**
+<details>
+    <summary>**Hint:**</summary>
+    <figure>
+		* How can we identify all the startup elements? Do they share any HTML attributes?
 
-* How can we identify all the startup elements? Do they share any HTML attributes?
+		* Once we've identified an attribute they all share, how can we select them all?
+		* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.
 
-* Once we've identified an attribute they all share, how can we select them all?
-	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.
+		* Now that we have a collection, how do we change the text off all of them at once?
+		* Tip: iterate through the collection and reset the `textContent` of each.
+    </figure>
+</details>
 
-* Now that we have a collection, how do we change the text off all of them at once?
-	* Tip: iterate through the collection and reset the `textContent` of each.
+
+
 
 ##Create & Append: Angels Everywhere
 
