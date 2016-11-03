@@ -38,7 +38,7 @@ DOM manipulation is the bread and butter of dynamic web design - you will do it,
 [time]: # (25 min)
 *This workshop will be guided, but self-driven.*
 
-Good news - this class has been recruited by General Assembly's Global Disruption Department to hack to hack Angel List. We're going to use some Javascript to manipulate various aspects of their web page. They have issued us four missions to accomplish, along with a fifth optional SUPER MISSION.
+Good news - this class has been recruited by General Assembly's Global Disruption Department to hack Angel List. We're going to use some Javascript to manipulate various aspects of their web page. They have issued us four missions to accomplish, along with a fifth optional SUPER MISSION.
 
 *Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
 
