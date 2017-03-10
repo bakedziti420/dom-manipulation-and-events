@@ -38,7 +38,9 @@ DOM manipulation is the bread and butter of dynamic web design - you will do it,
 [time]: # (25 min)
 *This workshop will be guided, but self-driven.*
 
-Good news - this class has been recruited by General Assembly's Global Disruption Department to hack Angel List. We're going to use some Javascript to manipulate various aspects of their web page. They have issued us four missions to accomplish, along with a fifth optional SUPER MISSION.
+Good news - this class has been recruited by General Assembly's Global Disruption Department to hack Angel List. We're going to use some Javascript to manipulate various aspects of their web page. They have issued us four missions to accomplish, along with a fifth optional SUPER MISSION. So zip up your hoodies and pull on your balaclavas!
+
+![](images/hacker.jpg)
 
 *Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
 
@@ -59,9 +61,9 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 * How can we identify all the startup elements? Do they share any HTML attributes?
 
 * Once we've identified an attribute they all share, how can we select them all?
-	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.
+	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different from `.querySelector` which just selects the first item it finds.
 
-* Now that we have a collection, how do we change the text off all of them at once?
+* Now that we have a collection, how do we change the text of all of them at once?
 	* Tip: iterate through the collection and reset the `textContent` of each.
 
 ##Create & Append: Angels Everywhere
@@ -85,7 +87,7 @@ Let add the AngelList V to the end of the page title.
 
 * Append it to the DOM
 
-##Styling with Javascript: Big Kitty
+##Styling with Javascript: Big Green V
 
 ####Mission C
 

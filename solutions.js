@@ -8,11 +8,11 @@ for(var i= 0; i < companies.length; i++) {
 }
 
 //Mission B - Add the V
-var pageTitle = document.querySelector(".c-pageHeaderSmall-h1");
-var logo = document.createElement("span")
+var pageTitle = document.querySelector(".g-title2");
+var logo = document.createElement("span");
 logo.className = "fontello-angellist";
-logo.setAttribute("id", "myLogo")
-pageTitle.appendChild(logo) 
+logo.setAttribute("id", "myLogo");
+pageTitle.appendChild(logo);
 
 //Mission C - green V
 logo.style.fontSize = "164px";
@@ -26,5 +26,5 @@ logo.addEventListener("click", fundMe)
 function makeMeRed(event){ event.target.style.color = "red";}  
 function makeMeGreen(event){ event.target.style.color = "green"}
 
-logo.addEventListener("mouseenter", makeMeRed)
-logo.addEventListener("mouseleave", makeMeGreen)
+logo.addEventListener("mouseenter", makeMeRed);
+logo.addEventListener("mouseleave", makeMeGreen);
