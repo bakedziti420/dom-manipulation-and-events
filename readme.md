@@ -34,7 +34,7 @@ DOM manipulation is the bread and butter of dynamic web design - you will do it,
 - Create javascript objects and functions
 - Be resourceful Googlers
 
-##Select & Modify: Str8-up H4cked
+## Select & Modify: Str8-up H4cked
 [time]: # (25 min)
 *This workshop will be guided, but self-driven.*
 
