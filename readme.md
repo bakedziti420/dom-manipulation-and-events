@@ -44,7 +44,7 @@ Good news - this class has been recruited by General Assembly's Global Disruptio
 
 *Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
 
-####Mission A
+#### Mission A
 
 Time to be an [Egor Homakov](http://techli.com/2012/03/how-a-russian-developer-hijacked-github-to-help-the-rails-community/) and get some publicity. 
 
@@ -66,9 +66,9 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 * Now that we have a collection, how do we change the text of all of them at once?
 	* Tip: iterate through the collection and reset the `textContent` of each.
 
-##Create & Append: Angels Everywhere
+## Create & Append: Angels Everywhere
 
-####Mission B
+#### Mission B
 
 Let add the AngelList V to the end of the page title. 
 
@@ -87,9 +87,9 @@ Let add the AngelList V to the end of the page title.
 
 * Append it to the DOM
 
-##Styling with Javascript: Big Green V
+## Styling with Javascript: Big Green V
 
-####Mission C
+#### Mission C
 
 Our angel V is not big or bold enough! Let's increase its size and give it a fun color.
 
@@ -102,9 +102,9 @@ Our angel V is not big or bold enough! Let's increase its size and give it a fun
 `.style`
 
 
-##Set Event Listeners
+## Set Event Listeners
 
-####Mission D
+#### Mission D
 
 Register an event which fires when our angel V is clicked that creates an alert message saying "Fund Me!"
 
@@ -115,9 +115,9 @@ Register an event which fires when our angel V is clicked that creates an alert 
 `.addEventListener`
 
 
-##Bonus Mission
+## Bonus Mission
 
-####Mission E
+#### Mission E
 
 When the angel V is hovered-over, change its color to red.
 
