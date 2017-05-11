@@ -6,7 +6,7 @@ Market: SF, Denver
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-#DOM Manipulation & Events
+# DOM Manipulation & Events
 
 ## Why is this important? 
 [time]: # (5 min)
@@ -121,7 +121,7 @@ Register an event which fires when our angel V is clicked that creates an alert 
 
 When the angel V is hovered-over, change its color to red.
 
-##Closing Thoughts
+## Closing Thoughts
 
 Knowledge of the Web API allows us to affect and add dynamic behavior to HTML pages.
 
@@ -144,7 +144,7 @@ Knowledge of the Web API allows us to affect and add dynamic behavior to HTML pa
 * `.style` (`.<someCSSProperty>`)
 * `.addEventListener`
 
-####More worth knowing
+#### More worth knowing
 
 **Element API**
 
