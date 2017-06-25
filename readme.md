@@ -58,10 +58,10 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 
 **Hint:**
 
-* How can we identify all the startup elements? Do they share any HTML attributes?
+* How can we identify all the title elements? Do they share any HTML attributes? 
 
 * Once we've identified an attribute they all share, how can we select them all?
-	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different from `.querySelector` which just selects the first item it finds.
+	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different from `.querySelector` which just selects the first item it finds. You can even use space separated element names to grab nested elements.
 
 * Now that we have a collection, how do we change the text of all of them at once?
 	* Tip: iterate through the collection and reset the `textContent` of each.

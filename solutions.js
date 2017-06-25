@@ -1,6 +1,6 @@
 // Mission A - Select & Modify: Str8-up H4cked
 //grab all the companies
-var companies = document.querySelectorAll("a");
+var companies = document.querySelectorAll("h5 a");
 //for each company
 for(var i= 0; i < companies.length; i++) {
     //change the text content
