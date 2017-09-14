@@ -48,7 +48,7 @@ Good news - this class has been recruited by General Assembly's Global Disruptio
 
 Time to be an [Egor Homakov](http://techli.com/2012/03/how-a-russian-developer-hijacked-github-to-help-the-rails-community/) and get some publicity. 
 
-Head to the Angel List's [job board](https://angel.co/developer/jobs) page to get started. Select each company name and change them all to `WDI Rulez: str8-up h4cked`.
+Head to the Angel List's [job board](https://angel.co/developer/jobs) page (you'll have to make a login, but this will be useful in your job search!)  to get started. Select each company name and change them all to `WDI Rulez: str8-up h4cked`.
 
 ![str8-up hacked](./images/str8-up-h4cked.png)
 
