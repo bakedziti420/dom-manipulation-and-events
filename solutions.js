@@ -1,6 +1,6 @@
 // Mission A - Select & Modify: Str8-up H4cked
 //grab all the companies
-var companies = document.querySelectorAll("h5 a");
+var companies = document.querySelectorAll(".startup-link");
 //for each company
 for(var i= 0; i < companies.length; i++) {
     //change the text content
@@ -8,11 +8,12 @@ for(var i= 0; i < companies.length; i++) {
 }
 
 //Mission B - Add the V
-var pageTitle = document.querySelector(".g-title2");
-var logo = document.createElement("span");
-logo.className = "fontello-angellist";
-logo.setAttribute("id", "myLogo");
-pageTitle.appendChild(logo);
+//*** The hard part here is discovering HOW to make the icon show up
+var pageTitle = document.querySelector(".c-pageHeaderSmall-h1"); // Grab Header
+var logo = document.createElement("span"); // Create empty span for logo
+logo.className = "fontello-angellist"; // add class that makes the V logo show up
+logo.setAttribute("id", "myLogo"); // add an ID to our new logo
+pageTitle.appendChild(logo); // add our logo to the page
 
 //Mission C - green V
 logo.style.fontSize = "164px";
